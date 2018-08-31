@@ -11,11 +11,11 @@
 	<distributionManagement>
    		<repository>
       			<id>nexus-snapshots</id>
-      			<url>http://localhost:9090/repository/maven-releases</url>
+      			<url>http://localhost:7070/repository/maven-releases</url>
   		 </repository>
   	 <snapshotRepository>
      			 <id>nexus-snapshots</id>
-     			 <url>http://localhost:9090/repository/maven-snapshots</url>
+     			 <url>http://localhost:7070/repository/maven-snapshots</url>
   	 </snapshotRepository>
   	 <site>
       			<id>nexus</id>
