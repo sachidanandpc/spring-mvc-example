@@ -76,4 +76,16 @@
 		</plugins>
 		<finalName>${project.artifactId}</finalName> <!-- added to remove Version from WAR file -->
 	</build>
+	<distributionManagement>
+	  <repository>
+		<id>releases</id>
+		<name>Internal Releases</name>
+		<url>http://localhost:5050/repository/SAMPLE-SNAP-REL/</url>
+	  </repository>
+	  <snapshotRepository>
+		<id>snapshots</id>
+		<name>Internal Snapshot Releases</name>
+		<url>http://localhost:5050/repository/SAMPLE-SNAP/</url>
+	  </snapshotRepository>
+	</distributionManagement>
 </project>
